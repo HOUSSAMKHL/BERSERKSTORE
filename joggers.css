@@ -84,11 +84,10 @@ ul {
     height: auto;
     margin-bottom: 10px;
 }
-button:hover {
+.button2:hover {
     background-color: white;
     color: rgb(150, 26, 26);
 }
-
 .button2{ 
     width: 100%;
     padding: 10px 20px;
