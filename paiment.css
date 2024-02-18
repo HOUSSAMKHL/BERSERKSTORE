@@ -110,6 +110,9 @@
             font-weight: 600;
             transition: all 0.4s ease;
         }
+        .button2:hover {
+            background-color: rgba(255, 255, 255, 0.5);
+        }
 
         .register {
             font-size: 0.9rem;
