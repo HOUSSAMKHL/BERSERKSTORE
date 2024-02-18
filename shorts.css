@@ -84,7 +84,8 @@ ul {
     height: auto;
     margin-bottom: 10px;
 }
-button:hover {
+.button2:hover {
+    background-color: white;
     color: rgb(150, 26, 26);
 }
 
