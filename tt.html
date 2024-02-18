@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>BerSerk</title>
+    <style>
+        body {
+            margin: 0;
+            overflow-x: hidden;
+        }
+
+        .navbar {
+            background-color: black;
+            width: 100%;
+            overflow: hidden;
+            font-family: Arial;
+            position: fixed;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .navbar a:hover {
+            border: 1px solid rgb(150, 26, 26);
+            width: auto;
+            color: black;
+            border-radius: 5px;
+            background-color: rgb(150, 26, 26);
+        }
+
+        #ww {
+            color: rgb(117, 0, 0);
+            font-size: 40px;
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        h2 {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 22px;
+            color: black;
+            margin-left: 10px;
+        }
+
+        p,
+        li {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 18px;
+            margin-left: 20px;
+            line-height: 1;
+            white-space: pre-line;
+        }
+
+        .navbar {
+            background-color: black;
+            width: 100%;
+            overflow: hidden;
+            font-family: Arial;
+            position: fixed;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .material-icons {
+            font-size: 24px;
+            vertical-align: middle;
+            margin-right: 5px;
+        }
+
+        .par {
+            margin-top: 100px;
+        }
+
+        .product-info {
+            display: flex;
+            align-items: center;
+            margin-top: 10%;
+            margin-left: 10%;
+        }
+
+        .product-image {
+            width: 40%;
+            height: 50%;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        form p {
+            display: inline-flex;
+            margin-right: 10px; /* Adjust as needed for spacing between checkboxes */
+        }
+
+        label {
+            margin-bottom: 8px;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        .img img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        footer {
+            color: black;
+            padding: 1em;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            clear: both;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .side-by-side-list {
+            margin-top: 20px;
+            display: inline-block;
+            vertical-align: top;
+            margin-right: 20px;
+            font-size: 100px;
+        }
+
+        .side-by-side-list li {
+            margin-bottom: 5px;
+            display: flex;
+            font-size: 25px;
+        }
+
+        .side-by-side-list img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .side-by-side-list a {
+            color: black;
+            text-decoration: none;
+        }
+
+        #p1 {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <a href="PROJET.html" class="custom-logo-link"><img fetchpriority="high" width="150" height="57" src="home.png"
+                                                       class="custom-logo lazyloaded" alt="Berserk Store"
+                                                       sizes="(max-width: 747px) 100vw, 747px"
+                                                       srcset="home.png 747w, home.png 200w, home.png 150w"
+                                                       data-ll-status="loaded"><noscript><img fetchpriority="high"
+                                                                                                width="747" height="221"
+                                                                                                src="home.png"
+                                                                                                class="custom-logo"
+                                                                                                alt="Berserk Shop"
+                                                                                                srcset="home.png 747w, https://berserkshop.b-cdn.net/wp-content/uploads/2021/08/Berserk-Store-logo-300x89.png 300w, https://berserkshop.b-cdn.net/wp-content/uploads/2021/08/Berserk-Store-logo-600x178.png 600w, https://berserkshop.b-cdn.net/wp-content/uploads/2021/08/Berserk-Store-logo-150x44.png 150w"
+                                                                                                sizes="(max-width: 747px) 100vw, 747px"/></noscript></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active"><a class="nav-link" href="PROJET.html"><i
+                        class="material-icons">home</i></a></li>
+            <li class="nav-item"><a class="nav-link" href="hoodiesprjt.html">Hoodies</a></li>
+            <li class="nav-item"><a class="nav-link" href="tanksprjt.html">Tanks</a></li>
+            <li class="nav-item"><a class="nav-link" href="shortsprjt.html">Shorts</a></li>
+            <li class="nav-item"><a class="nav-link" href="joggersprjt.html">Joggers</a></li>
+            <li class="nav-item"><a class="nav-link" href="T-shirtprjt.html">T-shirts</a></li>
+            <li class="nav-item"><a class="nav-link" href="login.html"><i
+                        class="material-icons">account_circle</i></a></li>
+        </ul>
+    </div>
+</nav>
+<div class="product-info">
+    <img class="product-image" src="s14.webp" alt="Nom du produit">
+    <div>
+        <form>
+            <h2><b>berserk short</b></h2>
+            <p>
+                <label><b>Quantité :</b></label>
+                <input type="number" name="quantite" min="0" max="5" id="quantity" style="height: 25px;">
+            </p>
+            <p>
+                S<input type="checkbox" name="size" id="sizeS">
+                XL<input type="checkbox" name="size" id="sizeXL">
+                M<input type="checkbox" name="size" id="sizeM">
+            </p>
+        </form>
+    </div>
+    <form action="/process_payment" method="post" id="payment-form">
+        <label for="card-element">
+            Carte de crédit ou de débit
+        </label>
+        <div id="card-element">
+            <input type="text" name="quantite" style="height: 25px;">
+        </div>
+
+        <!-- Utilisé pour afficher les erreurs de validation -->
+        <div id="card-errors" role="alert"></div>
+
+        <button type="submit">Payer</button>
+    </form>
+   
+</div>
+</body>
+</html>
